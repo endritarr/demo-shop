@@ -24,6 +24,21 @@ export default async function HeroSection() {
           <p className="mb-4 md:mb-6 text-base md:text-lg text-muted-foreground max-w-md">
             Discover uniquely personalized products for every occasion and person you cherish.
           </p>
+          
+          {/* Tech Stack */}
+          <div className="mb-6 w-full">
+            <p className="text-xs text-muted-foreground mb-3 font-semibold uppercase tracking-wide">Built With</p>
+            <div className="flex flex-wrap gap-2 justify-center md:justify-start">
+              <span className="text-xs bg-muted border border-border rounded-full px-3 py-1.5 font-medium">Next.js 16</span>
+              <span className="text-xs bg-muted border border-border rounded-full px-3 py-1.5 font-medium">React 19</span>
+              <span className="text-xs bg-muted border border-border rounded-full px-3 py-1.5 font-medium">TypeScript</span>
+              <span className="text-xs bg-muted border border-border rounded-full px-3 py-1.5 font-medium">Tailwind CSS</span>
+              <span className="text-xs bg-muted border border-border rounded-full px-3 py-1.5 font-medium">shadcn/ui</span>
+              <span className="text-xs bg-muted border border-border rounded-full px-3 py-1.5 font-medium">Stripe</span>
+              <span className="text-xs bg-muted border border-border rounded-full px-3 py-1.5 font-medium">Mapbox</span>
+            </div>
+          </div>
+
           <Button 
           className="px-6 py-3 bg-primary text-primary-foreground font-semibold rounded hover:bg-primary/90 transition w-full sm:w-auto"
           >

@@ -32,6 +32,45 @@ export default function About() {
               are for demonstration purposes only.
             </p>
           </div>
+
+          <div className="pt-8 space-y-6">
+            <h2 className="text-2xl font-semibold text-foreground">Tech Stack</h2>
+            <div className="max-w-2xl">
+              <p className="text-muted-foreground mb-6">
+                Built with modern technologies and best practices:
+              </p>
+              <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+                <div className="bg-muted/50 border border-border rounded-lg p-4 text-center">
+                  <div className="font-semibold text-foreground">Next.js 16</div>
+                  <div className="text-sm text-muted-foreground">React Framework</div>
+                </div>
+                <div className="bg-muted/50 border border-border rounded-lg p-4 text-center">
+                  <div className="font-semibold text-foreground">React 19</div>
+                  <div className="text-sm text-muted-foreground">UI Library</div>
+                </div>
+                <div className="bg-muted/50 border border-border rounded-lg p-4 text-center">
+                  <div className="font-semibold text-foreground">TypeScript</div>
+                  <div className="text-sm text-muted-foreground">Type Safety</div>
+                </div>
+                <div className="bg-muted/50 border border-border rounded-lg p-4 text-center">
+                  <div className="font-semibold text-foreground">Tailwind CSS</div>
+                  <div className="text-sm text-muted-foreground">Styling</div>
+                </div>
+                <div className="bg-muted/50 border border-border rounded-lg p-4 text-center">
+                  <div className="font-semibold text-foreground">shadcn/ui</div>
+                  <div className="text-sm text-muted-foreground">Components</div>
+                </div>
+                <div className="bg-muted/50 border border-border rounded-lg p-4 text-center">
+                  <div className="font-semibold text-foreground">Stripe</div>
+                  <div className="text-sm text-muted-foreground">Payments</div>
+                </div>
+                <div className="bg-muted/50 border border-border rounded-lg p-4 text-center">
+                  <div className="font-semibold text-foreground">Mapbox</div>
+                  <div className="text-sm text-muted-foreground">Maps API</div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </main>

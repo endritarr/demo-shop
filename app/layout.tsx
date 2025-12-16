@@ -5,6 +5,7 @@ import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 import Header from "@/components/homepage/layout/header";
 import Announcement from "@/components/homepage/layout/announcement";
+import Footer from "@/components/homepage/layout/footer";
 import { CartProvider } from "@/contexts/CartContext";
 
 const geistSans = Geist({
@@ -33,11 +34,14 @@ export default function RootLayout({
         className={`bg-background text-foreground ${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <CartProvider>
-          <Header />
-          <Announcement href="/products" text="25% Sale on all Products" />
-          <main>
-            {children}
-          </main>
+          <div className="flex flex-col min-h-screen">
+            <Header />
+            <Announcement href="/products" text="25% Sale on all Products" />
+            <main className="flex-1">
+              {children}
+            </main>
+            <Footer />
+          </div>
         </CartProvider>
         <Analytics />
       </body>
