@@ -32,8 +32,13 @@ export default function Contact() {
             Contact Us
           </h1>
           <div className="w-16 h-1 bg-primary mx-auto rounded-full" />
+          <div className="bg-muted/50 border border-border rounded-lg p-4 mb-4">
+            <p className="text-sm font-semibold text-primary">
+              🎨 This is a demo/portfolio project. The contact form is for demonstration purposes only.
+            </p>
+          </div>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto pt-4">
-            Have a question or want to get in touch? We&apos;d love to hear from you.
+            This contact form is part of a portfolio demonstration. Submissions are not processed.
           </p>
         </div>
 

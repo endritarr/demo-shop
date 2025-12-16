@@ -22,9 +22,9 @@ export default function TrustSection(
   };
 
   const contactInfo = [
-    { label: "Email", value: "info@poster-gifts.com", icon: "✉️" },
-    { label: "Phone", value: "123-456-7890", icon: "📞" },
-    { label: "Address", value: "123 Main St, Anytown, USA", icon: "📍" },
+    { label: "Email", value: "demo@demo-shop.endrita.com", icon: "✉️" },
+    { label: "Phone", value: "Demo Only", icon: "📞" },
+    { label: "Address", value: "Portfolio Demo Project", icon: "📍" },
   ];
 
   return (

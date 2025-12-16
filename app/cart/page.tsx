@@ -157,6 +157,12 @@ export default function CartPage() {
 
   return (
     <main className="container mx-auto py-8 px-4 max-w-6xl">
+      {/* Demo Notice */}
+      <div className="bg-muted/50 border border-border rounded-lg p-4 mb-6">
+        <p className="text-sm font-semibold text-primary">
+          🎨 This is a demo/portfolio project. Checkout functionality is for demonstration purposes only.
+        </p>
+      </div>
       {/* Breadcrumb Navigation */}
       <div className="mb-8">
         <Breadcrumb>

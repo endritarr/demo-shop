@@ -3,7 +3,7 @@ export default function ReviewSection() {
     <section className="w-full py-8 md:py-16 bg-muted-foreground/10 flex flex-col items-center justify-center">
       <div className="container mx-auto px-4">
         <h2 className="text-2xl sm:text-3xl font-bold text-foreground mb-6 md:mb-8 text-center px-4">
-          What Our Customers Say
+          Demo Customer Reviews
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-6 max-w-6xl mx-auto">
         <div className="bg-white/70 rounded-lg p-6 border border-border flex flex-col h-full shadow-lg">
@@ -18,7 +18,7 @@ export default function ReviewSection() {
             </div>
             <div>
               <div className="font-medium text-foreground">Sarah Johnson</div>
-              <div className="text-sm text-muted-foreground">Verified Customer</div>
+              <div className="text-sm text-muted-foreground">Demo Review</div>
             </div>
           </div>
         </div>
@@ -34,7 +34,7 @@ export default function ReviewSection() {
             </div>
             <div>
               <div className="font-medium text-foreground">Michael Chen</div>
-              <div className="text-sm text-muted-foreground">Verified Customer</div>
+              <div className="text-sm text-muted-foreground">Demo Review</div>
             </div>
           </div>
         </div>
@@ -50,7 +50,7 @@ export default function ReviewSection() {
             </div>
             <div>
               <div className="font-medium text-foreground">Emily Rodriguez</div>
-              <div className="text-sm text-muted-foreground">Verified Customer</div>
+              <div className="text-sm text-muted-foreground">Demo Review</div>
             </div>
           </div>
         </div>

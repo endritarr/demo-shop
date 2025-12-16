@@ -35,9 +35,14 @@ export default async function Return({ searchParams }: { searchParams: { session
             </div>
             
             <div className="space-y-2">
+              <div className="bg-muted/50 border border-border rounded-lg p-3 mb-4">
+                <p className="text-xs font-semibold text-primary">
+                  🎨 Demo/Portfolio Project
+                </p>
+              </div>
               <h1 className="text-2xl font-bold">Payment Successful!</h1>
               <p className="text-muted-foreground">
-                Thank you for your order! A confirmation email has been sent to{' '}
+                This is a demo checkout flow. In a real application, a confirmation email would be sent to{' '}
                 <span className="font-medium text-foreground">{customerEmail}</span>.
               </p>
             </div>

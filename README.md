@@ -1,4 +1,8 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Demo Shop - Portfolio Project
+
+This is a [Next.js](https://nextjs.org) demo e-commerce shop project. This is a portfolio demonstration project deployed at [demo-shop.endrita.com](https://demo-shop.endrita.com).
+
+**Note:** This is a demo/portfolio project. All products, reviews, and checkout functionality are for demonstration purposes only.
 
 ## Getting Started
 

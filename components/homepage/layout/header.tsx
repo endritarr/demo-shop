@@ -23,14 +23,14 @@ export default function Header() {
             <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity md:static absolute left-1/2 md:left-auto -translate-x-1/2 md:translate-x-0">
               <Image 
                 src="/images/logo.png?v=2" 
-                alt="Poster Gifts Logo" 
+                alt="Demo Shop Logo" 
                 width={200} 
                 height={200} 
                 className="w-15 h-15"
                 priority
                 unoptimized
               />
-              <h1 className="text-2xl font-bold">Poster Gifts</h1>
+              <h1 className="text-2xl font-bold">Demo Shop</h1>
             </Link>
             
             {/* Desktop Navigation and Shopping Cart - Right Side */}

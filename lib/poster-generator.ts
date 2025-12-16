@@ -693,7 +693,7 @@ export async function generateGelatoPDF(
     pdfVersion: '1.4',
     info: {
       Title: 'Poster',
-      Creator: 'Poster Gifts',
+      Creator: 'Demo Shop',
     },
   });
   

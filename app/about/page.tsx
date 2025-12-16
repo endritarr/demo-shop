@@ -12,19 +12,24 @@ export default function About() {
 
         {/* Main Content */}
         <div className="space-y-8 text-lg leading-relaxed">
+          <div className="bg-muted/50 border border-border rounded-lg p-4 mb-6">
+            <p className="text-sm font-semibold text-primary">
+              🎨 This is a demo/portfolio project showcasing an e-commerce shop.
+            </p>
+          </div>
           <p className="text-muted-foreground max-w-2xl">
-            We are a small team of passionate people dedicated to creating
-            unique and personalized poster gifts. Based in the United States,
-            we believe in the power of thoughtful, customized presents that
-            capture precious moments and celebrate the people you love.
+            This demo shop represents a fictional e-commerce business. It demonstrates a full-stack
+            application with product browsing, cart functionality,
+            and checkout features.
           </p>
 
           <div className="pt-8 space-y-4">
-            <h2 className="text-2xl font-semibold text-foreground">Our Mission</h2>
+            <h2 className="text-2xl font-semibold text-foreground">About This Demo</h2>
             <p className="text-muted-foreground max-w-2xl">
-              To create unique and personalized poster gifts that make your loved
-              ones feel truly special. We&apos;re here to turn your memories into
-              beautiful, lasting keepsakes.
+              This is a portfolio demonstration project built with Next.js, showcasing
+              modern web development practices including responsive design, state management,
+              and e-commerce functionality. All products, reviews, and contact information
+              are for demonstration purposes only.
             </p>
           </div>
         </div>
